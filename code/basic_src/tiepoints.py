@@ -8,7 +8,7 @@ email:huanglingcao@gmail.com
 add time: 24 June, 2016
 """
 
-import os,time,random,shutil,parameters,ntpath,basic,subprocess
+import os,time,random,shutil,ntpath,basic,subprocess
 # from basic import LogMessage
 import basic,io_function
 

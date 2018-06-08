@@ -13,7 +13,7 @@ import struct
 import RSImageProcess
 
 from RSImage import RSImageclass
-import parameters
+#import parameters
 import basic,io_function
 
 # from PIL import Image, ImageDraw
