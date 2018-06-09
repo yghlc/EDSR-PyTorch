@@ -10,6 +10,11 @@
 # Place your images in test folder. (like test/<your_image>) We support png and jpeg files.
 python3 main.py --data_test Demo --scale 4 --pre_train ../experiment/model/EDSR_baseline_x4.pt --test_only --save_results
 
+
+python3 main.py --data_test Demo --scale 2 --pre_train ../experiment/EDSR_baseline_x2_wv2_planet/model/model_latest.pt \
+ --test_only --save_results
+
+
 # You can find the result images from experiment/test/results folder.
 
 ##############################################################################
