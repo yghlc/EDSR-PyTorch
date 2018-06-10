@@ -49,7 +49,8 @@ class WV3_planet(srdata.SRData):
     def _set_filesystem(self, dir_data):
         self.apath = dir_data + '/WV3_planet'
         self.dir_hr = os.path.join(self.apath, 'train_HR_WV3_RGB')
-        self.dir_lr = os.path.join(self.apath, 'train_LR_planet_RGB')
+        # self.dir_lr = os.path.join(self.apath, 'train_LR_planet_RGB')
+        self.dir_lr = os.path.join(self.apath, 'train_LR_WV3_bilinear_RGB')
         self.ext = '.tif'
 
     def _name_hrbin(self):

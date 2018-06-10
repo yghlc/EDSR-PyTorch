@@ -34,6 +34,6 @@ python3 main.py --data_test Demo --scale 2 --pre_train ../experiment/EDSR_baseli
 # offset_val 900 should be the same as n_train
 
 python3 main.py --model EDSR --scale 2 --save EDSR_baseline_x2_wv2_planet --dir_data /home/hlc/Data/super_resolution \
---reset --data_train WV3_planet --data_test WV3_planet --offset_val 900 --n_train 900 --patch_size 100 --epochs 800 --ext sep_reset --n_GPUs 2
+--reset --data_train WV3_planet --data_test WV3_planet --offset_val 900 --n_train 900 --patch_size 100 --epochs 500 --ext sep_reset --n_GPUs 2
 
 
